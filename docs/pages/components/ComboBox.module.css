@@ -1,0 +1,89 @@
+.container{
+    position: relative;
+    color: #5F6368;
+    width:100%;
+    margin: 8px 0;
+    border-radius: 16px;
+    transition: height 5s;
+    /* transition-timing-function: ease-out; */
+}
+
+
+
+.inputText{
+    width: 100%;
+    outline: none;
+    background-color: #E9EBEC;
+    border: none;  
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 4px 16px; 
+    border-radius: 8px;
+    transition: background 0.5s;
+    /* transition-timing-function: ease-out; */
+    color: #5F6368;
+    
+}
+
+.inputText:hover{
+    background-color: #cccccc;
+}
+
+.inputText:focus{
+    background-color: white;
+    outline: 1px solid #e88006;
+    
+    
+}
+
+
+
+.suggestionList{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+    background-color: white;
+    border-radius: 8px;
+    display: none;
+}
+
+.suggestionList:focus{
+    box-shadow: 10px 10px grey;
+}
+
+
+
+.suggestedItem{
+    color: #5F6368;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+    padding: 4px 16px; 
+}
+
+
+.suggestedItem:focus, .suggestedItem:hover {
+    background-color: #cccccc ;
+}
+
+
+/* .suggestedItem:focus-within{
+    background-color: #cccccc ;
+} */
+
+.suggestedItem:last-child {
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 8px;
+}
+
+.divider{
+    border-top: 1px solid #e0e0e0;
+}

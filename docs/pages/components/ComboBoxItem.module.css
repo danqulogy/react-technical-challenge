@@ -1,0 +1,11 @@
+.suggestedItem{
+    background-color: transparent;
+    color: #5F6368;
+    border: none;
+    outline: none;
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: left;
+    padding: 4px 16px; 
+}
